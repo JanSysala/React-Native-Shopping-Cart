@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Image } from 'react-native';
-import { Body, Button, Card, CardItem, Icon, Left, Right, Text, Toast } from 'native-base';
+import { Body, Button, Card, CardItem, Icon, Left, Right, Text } from 'native-base';
 import { Product } from '../models/shop';
 import { CartContext } from '../context/CartContext';
 

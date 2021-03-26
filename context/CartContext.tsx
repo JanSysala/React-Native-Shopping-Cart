@@ -33,7 +33,6 @@ const CartContextProvider = ({ children }: any) => {
   }
 
   const handleCheckout = () => {
-    console.log('CHECKOUT', state);
     dispatch({ type: 'CHECKOUT' })
   }
 
